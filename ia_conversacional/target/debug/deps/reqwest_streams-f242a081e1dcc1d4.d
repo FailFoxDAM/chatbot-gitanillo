@@ -1,0 +1,9 @@
+C:\Users\lahcen\Desktop\Entornos del desarrollo\Chatbot\chatbot-gitanillo\ia_conversacional\target\debug\deps\reqwest_streams-f242a081e1dcc1d4.d: C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\lib.rs C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\macros.rs C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\error.rs C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\json_stream.rs C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\json_array_codec.rs
+
+C:\Users\lahcen\Desktop\Entornos del desarrollo\Chatbot\chatbot-gitanillo\ia_conversacional\target\debug\deps\libreqwest_streams-f242a081e1dcc1d4.rmeta: C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\lib.rs C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\macros.rs C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\error.rs C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\json_stream.rs C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\json_array_codec.rs
+
+C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\lib.rs:
+C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\macros.rs:
+C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\error.rs:
+C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\json_stream.rs:
+C:\Users\lahcen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\json_array_codec.rs:
