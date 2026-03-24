@@ -4,7 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-google-generative-ai-rs = "=0.3.4"
-tokio = { version = "1", features = ["full"] }
+axum = "0.8.7"
+tokio = { version = "1.0", features = ["full"] }
+tower-http = { version = "0.6.8", features = ["cors"] }
+google-generative-ai-rs = "0.3.4"
 serde = { version = "1.0", features = ["derive"] }
-dotenv = "0.15.0"
+dotenv = "0.15"

@@ -1,0 +1,9 @@
+C:\Users\Jenn\Documents\Entornos_py\chatbot-gitanillo\ia_conversacional\target\debug\deps\reqwest_streams-b48bd9db9ac552c5.d: C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\lib.rs C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\macros.rs C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\error.rs C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\json_stream.rs C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\json_array_codec.rs
+
+C:\Users\Jenn\Documents\Entornos_py\chatbot-gitanillo\ia_conversacional\target\debug\deps\libreqwest_streams-b48bd9db9ac552c5.rmeta: C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\lib.rs C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\macros.rs C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\error.rs C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\json_stream.rs C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\json_array_codec.rs
+
+C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\lib.rs:
+C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\macros.rs:
+C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\error.rs:
+C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\json_stream.rs:
+C:\Users\Jenn\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\reqwest-streams-0.8.2\src\json_array_codec.rs:
