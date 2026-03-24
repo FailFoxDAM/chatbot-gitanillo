@@ -1,3 +1,4 @@
+<<<<<<< HEAD
    0.290954500s  INFO prepare_target{force=false package_id=ia_conversacional v0.1.0 (C:\Users\Jenn\Documents\Entornos_py\chatbot-gitanillo\ia_conversacional) target="ia_conversacional"}: cargo::core::compiler::fingerprint: fingerprint error for ia_conversacional v0.1.0 (C:\Users\Jenn\Documents\Entornos_py\chatbot-gitanillo\ia_conversacional)/Check { test: false }/TargetInner { name: "ia_conversacional", doc: true, ..: with_path("C:\\Users\\Jenn\\Documents\\Entornos_py\\chatbot-gitanillo\\ia_conversacional\\src\\main.rs", Edition2024) }
    0.291040400s  INFO prepare_target{force=false package_id=ia_conversacional v0.1.0 (C:\Users\Jenn\Documents\Entornos_py\chatbot-gitanillo\ia_conversacional) target="ia_conversacional"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\Jenn\Documents\Entornos_py\chatbot-gitanillo\ia_conversacional\target\debug\.fingerprint\ia_conversacional-20f63019de1d0608\bin-ia_conversacional`
 
@@ -56,3 +57,6 @@ Stack backtrace:
   20: RtlUserThreadStart
     Checking ia_conversacional v0.1.0 (C:\Users\Jenn\Documents\Entornos_py\chatbot-gitanillo\ia_conversacional)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.84s
+=======
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.82s
+>>>>>>> a114368d3f6cdfe062c5cb400fead7816dbdb931

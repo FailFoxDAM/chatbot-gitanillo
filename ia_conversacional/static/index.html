@@ -201,6 +201,65 @@
         </div>
     </div>
     
-    <script src=""></script>
+    <script>
+        const messageList = document.getElementById('message-list');
+        const userInput = document.getElementById('user-input');
+        const sendBtn = document.getElementById('send-btn');
+
+        // Función para añadir mensajes al chat
+        function addMessage(text, sender) {
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('message', sender);
+            messageDiv.innerText = text;
+            messageList.appendChild(messageDiv);
+            
+            // Auto-scroll hacia abajo
+            messageList.scrollTop = messageList.scrollHeight;
+            return messageDiv;
+        }
+
+        async function handleSend() {
+            const text = userInput.value.trim();
+            if (!text) return;
+
+            // 1. Mostrar mensaje del usuario
+            addMessage(text, 'user-message');
+            userInput.value = '';
+
+            // 2. Mostrar indicador de que la IA está pensando
+            const typingDiv = addMessage('El Caló está pensando...', 'bot-message');
+            typingDiv.classList.add('typing');
+
+            try {
+                // 3. Llamada a tu servidor Rust
+                const response = await fetch('http://127.0.0.1:3000/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message: text }),
+                });
+
+                if (!response.ok) throw new Error('Error en el servidor');
+
+                const data = await response.json();
+                
+                // 4. Eliminar indicador de carga y mostrar respuesta real
+                typingDiv.remove();
+                addMessage(data.reply, 'bot-message');
+
+            } catch (error) {
+                typingDiv.remove();
+                addMessage('¡Ay! Se cortó el camino. Asegúrate de que el servidor Rust esté corriendo.', 'bot-message');
+                console.error('Error:', error);
+            }
+        }
+
+        // Eventos de teclado y click
+        sendBtn.addEventListener('click', handleSend);
+        userInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') handleSend();
+        });
+    </script>
 </body>
 </html>
